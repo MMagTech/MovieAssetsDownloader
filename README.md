@@ -6,6 +6,7 @@ Movie Assets Downloader is a Python script designed to automate the downloading 
 ## Assumptions
 - This script utilizes the Kometa asset_directory: setting and assumes the operations: assets_for_all is set to true
   1. The operation assets_for_all:true will create a folder in the asset directory for all movies in your library
+  2. The create asset folder for the movie is where the script will download the files to for each movie
   
 ## Features
 
