@@ -67,6 +67,10 @@ python MovieAssetsDownloader.py
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue to discuss any changes.
 
+## Credit
+
+This script was inspired by and based on the work of [phillyNYC/PostersBulkDownloader](https://github.com/phillyNYC/PostersBulkDownloader).
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
