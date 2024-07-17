@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  movie_assets_downloader:
+    build: .
+    container_name: movie_assets_downloader
+    volumes:
+      - .:/app
+    environment:
+      - TZ=UTC
+    restart: always
+    entrypoint: ["sh", "-c", "python movie_assets_downloader.py"]
