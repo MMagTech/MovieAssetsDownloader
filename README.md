@@ -3,6 +3,10 @@
 
 Movie Assets Downloader is a Python script designed to automate the downloading of movie posters and backgrounds (backdrops) from the TMDB (The Movie Database) API. The script scans a specified directory for movie folders named in the format `MovieName (Year)`, fetches the corresponding movie data from the TMDB API, and saves the movie poster and background images directly into the respective movie folders.
 
+## Assumptions
+- This script utilizes the Kometa asset_directory: setting and assumes the operations: assets_for_all is set to true
+  1. The operation assets_for_all:true will create a folder in the asset directory for all movies in your library
+  
 ## Features
 
 - **Automated Scanning:** Automatically scans a base directory for movie folders and extracts movie names and release years.
